@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Produk</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    .hidden-col {
+      display: none;
+    }
+    .action-button {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .download-button {
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+    .import-button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #2196F3;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+    .export-jstd-button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #FFC107;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Data Produk</h2>
+
+<!-- Tombol filter -->
+<button onclick="filterData('Sudah Edit')">Tampilkan yang Sudah Edit</button>
+<button onclick="filterData('Belum Edit')">Tampilkan yang Belum Edit</button>
+<button onclick="filterData('')">Tampilkan Semua</button>
+
+<table id="tabelProduk">
+  <thead>
+    <tr>
+      <th>No</th>
+      <th class="hidden-col">Nama Toko</th>
+      <th class="hidden-col">Nama Produk</th>
+      <th>Link Produk</th>
+      <th class="hidden-col">Terjual</th>
+      <th class="hidden-col">Harga</th>
+      <th class="hidden-col">Komisi (Rp)</th>
+      <th class="hidden-col">Komisi (%)</th>
+      <th class="hidden-col">Keterangan</th>
+      <th>Aksi</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<button class="download-button" onclick="downloadJSON()">Download JSON</button>
+<input type="file" id="fileInput" class="import-button" onchange="importJSON(event)" accept=".json" />
+<button class="export-jstd-button" onclick="exportJSTD()">Export JSTD</button>
+
+<script>
+// URL Web App Google Apps Script
+const apiUrl = 'https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLipS-u35DkdD1nkPsx2BpORsFGLmdwwvwDbXNuIxWN4XjVIC7BvPDuFol0xE-KV90WARaRHDxBYRDS8i9MRyMQVE7oGrvt8xHOzOY1A-_b86rn2-Nlo6vK6Ck0PmhsNVBPY8hpFusKc203DGjKdUA9p2tvsueU4OQcp50gk3CAKTno5sfxCe2gBY90pnZ63MExQXsK1REl7CYkn2-1TifhlImq1VrJbe67ajA7k9CwJYgTgqCGYOOsyMZMHd7WWY-9BrgTnZATNWzgGdmYCOPXV-xNgKRCG92mMKax2&lib=MGv1YBAC5ctfTkoX8n8rz3gf05acmEaPW';
+
+// Ambil data dari API dan simpan ke localStorage
+fetch(apiUrl)
+  .then(response => response.json())
+  .then(data => {
+    const produkData = {};
+
+    data.forEach(item => {
+      const link = item['Link Produk'];
+      const statusEdit = localStorage.getItem('status_' + encodeURIComponent(link)) || 'Belum Edit';
+
+      produkData[link] = {
+        ...item,
+        StatusEdit: statusEdit
+      };
+    });
+
+    localStorage.setItem('produkData', JSON.stringify(produkData));
+    renderTableFromLocalStorage();
+  })
+  .catch(error => {
+    console.error("Gagal mengambil data:", error);
+    renderTableFromLocalStorage(); // fallback ke data lokal
+  });
+
+function renderTableFromLocalStorage() {
+  const tbody = document.querySelector("#tabelProduk tbody");
+  tbody.innerHTML = "";
+
+  const produkData = JSON.parse(localStorage.getItem('produkData') || '{}');
+
+  Object.entries(produkData).forEach(([link, item]) => {
+    const statusEdit = item.StatusEdit;
+    const buttonText = statusEdit === 'Belum Edit' ? 'Ubah Status' : 'Setel ke Belum Edit';
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${item['No']}</td>
+      <td class="hidden-col">${item['Nama Toko']}</td>
+      <td class="hidden-col">${item['Nama Produk']}</td>
+      <td><a href="${link}" target="_blank">Link</a></td>
+      <td class="hidden-col">${item['Terjual']}</td>
+      <td class="hidden-col">${item['Harga']}</td>
+      <td class="hidden-col">${item['Komisi (Rp)']}</td>
+      <td class="hidden-col">${item['Komisi (%)']}</td>
+      <td class="hidden-col">${item['Keterangan']}</td>
+      <td>
+        <span class="status-edit">${statusEdit}</span>
+        <button class="action-button" onclick="toggleEditStatus(this, '${link}')">${buttonText}</button>
+        <button class="action-button" onclick="openEditTab('${link}')">Edit</button>
+      </td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function toggleEditStatus(button, productLink) {
+  const statusCell = button.previousElementSibling;
+  const currentStatus = statusCell.textContent;
+  const newStatus = currentStatus === "Belum Edit" ? "Sudah Edit" : "Belum Edit";
+
+  statusCell.textContent = newStatus;
+  button.textContent = newStatus === 'Belum Edit' ? 'Ubah Status' : 'Setel ke Belum Edit';
+
+  localStorage.setItem('status_' + encodeURIComponent(productLink), newStatus);
+
+  const produkData = JSON.parse(localStorage.getItem('produkData') || '{}');
+  if (produkData[productLink]) {
+    produkData[productLink].StatusEdit = newStatus;
+    localStorage.setItem('produkData', JSON.stringify(produkData));
+  }
+}
+
+function downloadJSON() {
+  const produkData = JSON.parse(localStorage.getItem('produkData') || '{}');
+
+  const exportData = Object.entries(produkData).map(([link, item]) => ({
+    No: item.No,
+    LinkProduk: link,
+    StatusEdit: item.StatusEdit
+  }));
+
+  const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+  const linkEl = document.createElement("a");
+  linkEl.href = URL.createObjectURL(blob);
+  linkEl.download = "data_produk.json";
+  linkEl.click();
+}
+
+function importJSON(event) {
+  const file = event.target.files[0];
+  const reader = new FileReader();
+
+  reader.onload = function(e) {
+    const importedData = JSON.parse(e.target.result);
+    const produkData = JSON.parse(localStorage.getItem('produkData') || '{}');
+
+    importedData.forEach(item => {
+      const link = item.LinkProduk;
+      const status = item.StatusEdit;
+      localStorage.setItem('status_' + encodeURIComponent(link), status);
+
+      if (produkData[link]) {
+        produkData[link].StatusEdit = status;
+      }
+    });
+
+    localStorage.setItem('produkData', JSON.stringify(produkData));
+    renderTableFromLocalStorage();
+  };
+
+  reader.readAsText(file);
+}
+
+function filterData(status) {
+  const rows = document.querySelectorAll("#tabelProduk tbody tr");
+
+  rows.forEach(row => {
+    const productLink = row.querySelector("td:nth-child(4) a").href;
+    const rowStatus = localStorage.getItem('status_' + encodeURIComponent(productLink)) || 'Belum Edit';
+
+    if (status === '' || rowStatus === status) {
+      row.style.display = '';
+    } else {
+      row.style.display = 'none';
+    }
+  });
+}
+
+function openEditTab(productLink) {
+  const editUrl = `detailproduk.html`;
+  window.open(editUrl, '_blank');
+}
+
+// Fungsi untuk mengekspor data dalam format JSTD
+function exportJSTD() {
+  const produkData = JSON.parse(localStorage.getItem('produkData') || '{}');
+
+  const exportData = Object.entries(produkData).map(([link, item]) => ({
+    nama_toko: item['Nama Toko'],
+    nama_produk: item['Nama Produk'],
+    link_produk: link,
+    terjual: item['Terjual'],
+    harga: item['Harga'],
+    komisi_rp: item['Komisi (Rp)'],
+    komisi_persen: item['Komisi (%)'],
+    keterangan: item['Keterangan'] || ""
+  }));
+
+  const jstdData = exportData.map(item => ({
+    ...item,
+    TanggalEkspor: new Date().toLocaleString()  // Tambahkan tanggal ekspor
+  }));
+
+  const blob = new Blob([JSON.stringify(jstdData, null, 2)], { type: 'application/json' });
+  const linkEl = document.createElement("a");
+  linkEl.href = URL.createObjectURL(blob);
+  linkEl.download = "data_jstd.json";
+  linkEl.click();
+}
+
+</script>
+
+</body>
+</html>
