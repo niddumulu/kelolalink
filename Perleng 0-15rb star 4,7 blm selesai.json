@@ -1,380 +1,10 @@
 [
   {
     "nama_toko": "Toko Contoh",
-    "nama_produk": "Kantong Plastik Bubble Mailer Amplop Bubble - White Pearl 11cm x 19cm",
-    "link_produk": "https://shopee.co.id/product/1008542642/22275703057",
-    "terjual": 10854,
-    "harga": 540,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Toper Karakter Murah Hiasan Kue Ulang Tahun Tusukan",
-    "link_produk": "https://shopee.co.id/product/537924044/22374263451",
-    "terjual": 10367,
-    "harga": 3622,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Aluminium Foil Cup 100 ml  (111/34) Makaroni Schotel",
-    "link_produk": "https://shopee.co.id/product/872582091/21750339535",
-    "terjual": 9969,
-    "harga": 709,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "PAPER BOWL ALL SIZE + TUTUP / MANGKUK KERTAS / WADAH KERTAS TEBAL / CUP MANGKOK TAHAN PANAS",
-    "link_produk": "https://shopee.co.id/product/164751069/22207742466",
-    "terjual": 9447,
-    "harga": 20500,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Tissue Facial Yukinawa 200 Sheet Lembut Terasa Halus Di Wajah/Muka",
-    "link_produk": "https://shopee.co.id/product/7438346/23951300775",
-    "terjual": 9330,
-    "harga": 4930,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "l polaroid 2R proses 1-2  hari bisa pisah",
-    "link_produk": "https://shopee.co.id/product/274765642/21504217410",
-    "terjual": 9092,
-    "harga": 150,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "BOX POPCORN GARIS 8X8X13 CM",
-    "link_produk": "https://shopee.co.id/product/67109930/23973247431",
-    "terjual": 8900,
-    "harga": 653,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "ECER Kantong Plastik Dove 33x30 muat Box Brownies 30x10x5 Mika Bronis L Transparan Buram Strudel",
-    "link_produk": "https://shopee.co.id/product/90169579/21360783894",
-    "terjual": 8371,
-    "harga": 917,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "SABLON GELAS CUP 22 OZ OVAL S & DATAR KUALITAS TEBAL TERMURAH SE INDONESIA",
-    "link_produk": "https://shopee.co.id/product/114190622/21973123430",
-    "terjual": 8000,
-    "harga": 427,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "CLIP NET BULAT WARING / PENJEPIT PARANET / KLIP NET / JEPITAN JARING",
-    "link_produk": "https://shopee.co.id/product/1044337493/23075536646",
-    "terjual": 7500,
-    "harga": 550,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Box Multi Plastik X1 X2 X3 X4 X5 X6 Kotak Tebal Keperluan Elektronik",
-    "link_produk": "https://shopee.co.id/product/99590416/23566334672",
-    "terjual": 7176,
-    "harga": 7600,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Siku Rak Verseng Plat Siku L Besi 2cm  3cm  4cm  5cm  6cm  7cm  8cm  9cm  10cm (Penyangga Kayu)",
-    "link_produk": "https://shopee.co.id/product/223691200/23215495008",
-    "terjual": 7127,
-    "harga": 767,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "[1 Pcs] Kuntuman Rose Mawar SJ - Kelopak Bunga Mawar Artificial Satuan Pcs  Dekorasi/Grosir/Import/Bunga Kain Artificial Import Berkualitas",
-    "link_produk": "https://shopee.co.id/product/450777462/23533677983",
-    "terjual": 6946,
-    "harga": 899,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Kantong Tebal Plastik Tebal Kresek Tebal Hitam",
-    "link_produk": "https://shopee.co.id/product/433017642/21766634347",
-    "terjual": 6463,
-    "harga": 7728,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "1PCS Cetakan Puding Mini Bavaya / Twist / Bubble / Classic / Varda / Lextra",
-    "link_produk": "https://shopee.co.id/product/174970774/21970854200",
-    "terjual": 6374,
-    "harga": 1108,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Plastik Ziplock Plastik Klip  30x38+7cm bening transparan untuk baju sepatu gamis",
-    "link_produk": "https://shopee.co.id/product/879121461/22543062121",
-    "terjual": 6352,
-    "harga": 988,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HC Kantong Kompres Air Panas Es Dingin Kantung Kompres Demam Dan Nyeri Motif Kartun Cold Compress Ice Bag Hot Pack Pereda PMS Haid Luka Memar Murah",
-    "link_produk": "https://shopee.co.id/product/26177891/22270746959",
-    "terjual": 6217,
-    "harga": 2605,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HKS Sticky Roll Pembersih Bulu Debu Pakaian Bulu Hewan Kotoran Gomasta",
-    "link_produk": "https://shopee.co.id/product/766984346/21408345036",
-    "terjual": 6089,
-    "harga": 5995,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HC Meteran Mini Gulung 150Cm Pengukur Lingkar Perut Baju Jahit Measure Tapes High Quality 1.5M Warna Pastel Alat Ukur Kain Tukang Jahit 60 Inch",
-    "link_produk": "https://shopee.co.id/product/26177891/21940910651",
-    "terjual": 5771,
-    "harga": 2251,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "1 Pcs Tangkai Rose Dandelion Single - Panjang 39Cm Tangkai Kelopak Bunga Mawar Pom2 Anyelir Dandelion Artificial Satuan Pcs untuk Buket Hiasan Ruang Tamu Rumah Hotel Cafe dan Dekorasi Papan Pelaminan Pernikahan Artifisial Premium Import Murah",
-    "link_produk": "https://shopee.co.id/product/817939428/22676367324",
-    "terjual": 5624,
-    "harga": 1450,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "COD 1PCS KUNTUM KEPALA BUNGA KRISAN JUMBO DIAMETER 14CM ARTIFICIAL - BUNGA SESERAHAN & BUCKET BUNGA - HIASAN DEKORASI - IMPORT",
-    "link_produk": "https://shopee.co.id/product/328818897/22720209764",
-    "terjual": 5536,
-    "harga": 1900,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "SMS Plastik Wrap Pembungkus Makanan 30cm x 10mtr Food Wrapping Roll Food Grade Plastik Buah Sayur Makanan Food Wrap Clip Roll",
-    "link_produk": "https://shopee.co.id/product/453955220/22516510838",
-    "terjual": 5450,
-    "harga": 5878,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Lilin Aromaterapi  Scented Candle Hampers | Souvenir Wedding Gift Birthday  | Paket Usaha",
-    "link_produk": "https://shopee.co.id/product/205531487/23817916359",
-    "terjual": 5204,
-    "harga": 8831,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Gelas Takar Ukur 100ML 150ml Plastik Bening Transparan Measuring Cup Plastic Jigger",
-    "link_produk": "https://shopee.co.id/product/23962982/23443778362",
-    "terjual": 5127,
-    "harga": 5900,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Botol Minuman Portable Cup 600 & 800 ML High Quality",
-    "link_produk": "https://shopee.co.id/product/986252850/23976674502",
-    "terjual": 5053,
-    "harga": 7999,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Plastik Pelindung Makanan Isi 100 Pcs Plastik karet Plastik Penutup Makan Plastik Menjaga Makanan",
-    "link_produk": "https://shopee.co.id/product/186103782/23752029911",
-    "terjual": 5010,
-    "harga": 7500,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "1PCS Tangkai Rose Dandelion Single Panjang 39CM Dekorasi Pernikahan Artifisial Murah Import Premium",
-    "link_produk": "https://shopee.co.id/product/1022470550/23550868756",
-    "terjual": 4957,
-    "harga": 1450,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Tissue Wajah SERIES - PASCOY - SEE-U - NICE - Soft Natural Facial - Tisu Series | Tnt Beauty Shop",
-    "link_produk": "https://shopee.co.id/product/744873/23481411740",
-    "terjual": 4954,
-    "harga": 10900,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Lakban Anti Bocor 3M 5M  Lem Anti Air Alumunium Foil Butyl Super Waterproof Tape Tambal",
-    "link_produk": "https://shopee.co.id/product/997869119/21692468829",
-    "terjual": 4809,
-    "harga": 26800,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Rak Kosmetik Aesthetic 2 Laci Multifungsi Tempat Penyimpanan Aksesoris Perhiasan Jumbo COD AIDO",
-    "link_produk": "https://shopee.co.id/product/680950364/22820716613",
-    "terjual": 4491,
-    "harga": 13500,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HBS Rak Sudut Kamar Mandi Tempel Dinding Keramik Rak Dapur Besi Serbaguna Tanpa Paku",
-    "link_produk": "https://shopee.co.id/product/991696713/23169099170",
-    "terjual": 4397,
-    "harga": 17300,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Tissue Jolly 250 Sheets 2Ply Facial Tisu Tissu Wajah",
-    "link_produk": "https://shopee.co.id/product/7438346/23555657793",
-    "terjual": 4344,
-    "harga": 7445,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HC Air Fryer Paper ±40-50 Pcs Anti Lengket 16cm Kertas Alas Airfryer ±40-50pcs Baking Paper Tahan Minyak Sekali Pakai Murah",
-    "link_produk": "https://shopee.co.id/product/26177891/23701196536",
-    "terjual": 4266,
-    "harga": 5738,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Bowin Reed Diffuser Crystal - Aromaterapi Pengharum Ruangan 100% Essential Oil",
-    "link_produk": "https://shopee.co.id/product/61414373/23934509534",
-    "terjual": 4227,
-    "harga": 39999,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Zipper Lock / Zipper Storage Bag / Organizer Bag",
-    "link_produk": "https://shopee.co.id/product/555831547/23318209176",
-    "terjual": 4219,
-    "harga": 1077,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Botol Minum Kaca Bening Aesthetic Bottle Tumbler 400 ml Gelas Coffee Cup Botol Anti Slip Tumpah",
-    "link_produk": "https://shopee.co.id/product/11592542/21293060408",
-    "terjual": 4127,
-    "harga": 5350,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
     "nama_produk": "JARING PARANET 75 % / SHADING NET | ANTI UV | BAHAN HDPE | GRADE A ( 1M X 3M )",
     "link_produk": "https://shopee.co.id/product/1044337493/22150051711",
     "terjual": 4082,
     "harga": 6250,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Gantungan Baju Plastik Dewasa Murah Isi 12Pcs",
-    "link_produk": "https://shopee.co.id/product/327565750/22012486528",
-    "terjual": 3918,
-    "harga": 10500,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -395,26 +25,6 @@
     "link_produk": "https://shopee.co.id/product/146938974/21748049485",
     "terjual": 3783,
     "harga": 2999,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "100 Pcs Holy (3/4\") (1\") (1 1/4\") (1 1/2\") (2\") Inch Sekrup Skrup Gypsum Kayu Drywall",
-    "link_produk": "https://shopee.co.id/product/155318466/22772412472",
-    "terjual": 3779,
-    "harga": 11000,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "[FOBO] Lunch Box Coklat Paper Kraft Full Laminasi / Kotak Makan Coklat Kraft 230 GSM",
-    "link_produk": "https://shopee.co.id/product/383541227/21779997262",
-    "terjual": 3751,
-    "harga": 552,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -445,26 +55,6 @@
     "link_produk": "https://shopee.co.id/product/142357669/22168777005",
     "terjual": 3512,
     "harga": 280,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "List Moulding Wainscoting /Bahan Pvc anti rayap ukuran 4cm 6cm/ List Moulding Pinggir dan Tengah Murah",
-    "link_produk": "https://shopee.co.id/product/789712409/23449150694",
-    "terjual": 3462,
-    "harga": 26250,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Roster Beton Minimalis  Loster Beton Minimalis  Roster Minimalis  Loster Minimalis  Lubang Angin Roster  Ventilasi Udara  Roster Putih  Loster Putih  Rooter Beton  Batu Roster  Luster Beton  Roster Tempel  Roster Dinding  Pagar Rumah  Roster Murah  Pagar",
-    "link_produk": "https://shopee.co.id/product/955993084/23925394289",
-    "terjual": 3439,
-    "harga": 10800,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -551,80 +141,10 @@
   },
   {
     "nama_toko": "Toko Contoh",
-    "nama_produk": "Zeita - Bouquet bunga BKT 213 Artifisial Dekorasi",
-    "link_produk": "https://shopee.co.id/product/836740244/21934078638",
-    "terjual": 2872,
-    "harga": 10999,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HC Silikon Partisi Bento Sekat Silikon Tebal Bekal Anak BPA Free Hiasan Makanan Bento Silicone Cup Bekal Anak Cetakan Cupcake Muffin Premium T",
-    "link_produk": "https://shopee.co.id/product/26177891/22166834540",
-    "terjual": 2870,
-    "harga": 613,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "YHOME Alas Tatakan Bentuk Anti slip Anti Kotor / Alas Lemari anti Lembab/Jamur bahan PVC / Waterproof Mat Alas Laci Transparan Kabinet Lemari Dapur Anti Slip / Alas Laci Lemari Transparan Y277",
-    "link_produk": "https://shopee.co.id/product/520253947/22943980159",
-    "terjual": 2784,
-    "harga": 23900,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Stella Air Freshener Refill Matic",
-    "link_produk": "https://shopee.co.id/product/8077122/23716055620",
-    "terjual": 2773,
-    "harga": 29000,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Mangkok Korea Stainless Steel Tebal / Mangkuk Dua Lapis Anti Panas Tanpa Tutup",
-    "link_produk": "https://shopee.co.id/product/580244323/23019217184",
-    "terjual": 2723,
-    "harga": 13650,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
     "nama_produk": "Handuk Permen Kecil Handuk Terkompresi Handuk Wajah Sekali Pakai Bath Towel",
     "link_produk": "https://shopee.co.id/product/20036083/23419010645",
     "terjual": 2680,
     "harga": 375,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Plastik Packing Baju Kantong Polymailer Olshop Isi 100 Lembar Semi Glossy Grade C Hitam Ukuran 10X20 17X30 20X30 20X40 25X35 25X35 25X40 30X40 30X50 35X50 40X50",
-    "link_produk": "https://shopee.co.id/product/53912665/22069451398",
-    "terjual": 2623,
-    "harga": 37599,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Tissue Tisu Gulung Jolly Bathroom isi 10 roll ( TENGAH ADA CORE )",
-    "link_produk": "https://shopee.co.id/product/256364012/23772503265",
-    "terjual": 2375,
-    "harga": 18999,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -715,26 +235,6 @@
     "link_produk": "https://shopee.co.id/product/48382819/22945770392",
     "terjual": 1938,
     "harga": 8600,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Bunga Semanggi Sakura Tangkai Panjang 65cm Artificial Imitasi Kain untuk Dekorasi Hiasan Pelaminan atau Dekorasi Wedding  Kamar  Rumah  dan Cafe Premium Termurah Artificial Palsu Kain Import",
-    "link_produk": "https://shopee.co.id/product/817939428/22466346243",
-    "terjual": 1905,
-    "harga": 4999,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HKS-H030 Gelas ukur Takar Bening Cup 250ml 300ml 500ml 1000ml 1liter",
-    "link_produk": "https://shopee.co.id/product/766984346/20608439648",
-    "terjual": 1796,
-    "harga": 19685,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -861,16 +361,6 @@
   },
   {
     "nama_toko": "Toko Contoh",
-    "nama_produk": "SMS Cetakan Nasi Sushi Cetakan Nasi Bento Sushi Onigiri Anti Lengket Desain Kartun",
-    "link_produk": "https://shopee.co.id/product/453955220/22307887164",
-    "terjual": 1481,
-    "harga": 2195,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
     "nama_produk": "Dahlia Heritage Series Air Freshener One For All Pengharum Ruangan 75gr - Pengharum Ruangan Rasa",
     "link_produk": "https://shopee.co.id/product/186866/22546463656",
     "terjual": 1438,
@@ -931,30 +421,10 @@
   },
   {
     "nama_toko": "Toko Contoh",
-    "nama_produk": "DecorArt 20 Cm - Papan Gantung Buka Tutup Open Close Bolak-Balik Tali Siap Pasang (Kd. BOLAT)",
-    "link_produk": "https://shopee.co.id/product/139409476/21869364558",
-    "terjual": 1397,
-    "harga": 18050,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
     "nama_produk": "Konektor Selang Sambungan Kran Air Flexible / Alat Penyambung Pipa Kepala Keran Kamar Mandi Wastafel Toilet / Water Faucet Connection Hose Connector Adaptor Selang Anti Splash",
     "link_produk": "https://shopee.co.id/product/31169310/21992377070",
     "terjual": 1385,
     "harga": 624,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HALU Organizer Laci Bening Acrylic Kotak Penyimpanan Serbaguna Rak Makeup Aksesoris Alat HSB710",
-    "link_produk": "https://shopee.co.id/product/399312512/22373719436",
-    "terjual": 1369,
-    "harga": 22200,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -975,16 +445,6 @@
     "link_produk": "https://shopee.co.id/product/946094379/22680732971",
     "terjual": 1322,
     "harga": 10700,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "SMS Kantong Kompres Air Panas Es Dingin Kantung Kompres Demam Dan Nyeri Motif Kartun Cold Compress Ice Bag Hot Pack Pereda PMS Haid Luka Memar Murah Import",
-    "link_produk": "https://shopee.co.id/product/453955220/23245209968",
-    "terjual": 1313,
-    "harga": 2603,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -1135,16 +595,6 @@
     "link_produk": "https://shopee.co.id/product/27230843/21576642436",
     "terjual": 1045,
     "harga": 28800,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "SMS Silikon Partisi Bento Sekat Silikon Tebal Bekal Anak BPA Free Hiasan Makanan Bento Silicone Cup Bekal Anak Cetakan Cupcake Muffin Premium Import",
-    "link_produk": "https://shopee.co.id/product/453955220/23741343464",
-    "terjual": 1035,
-    "harga": 611,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -1391,26 +841,6 @@
   },
   {
     "nama_toko": "Toko Contoh",
-    "nama_produk": "Bunga Delphinium Spring - Bunga Plastik Artificial Imitasi Snapdragon Cherry Blossom / Oncidium / Sakura untuk Dekorasi Bunga Sedap Malam Rumah Dekorasi Kamar dan Dekorasi Pelaminan atau Dekorasi Wedding",
-    "link_produk": "https://shopee.co.id/product/1022470550/23846951741",
-    "terjual": 721,
-    "harga": 7358,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Lilin Aromaterapi Scented Candle 45gr Box + Lilin | Souvenir Wedding Nikah | Gift Birthday Ultah",
-    "link_produk": "https://shopee.co.id/product/205531487/22774269764",
-    "terjual": 711,
-    "harga": 10053,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
     "nama_produk": "Edible Pen Coloring Spidol Marker Foodgrade",
     "link_produk": "https://shopee.co.id/product/351212979/23043839222",
     "terjual": 709,
@@ -1461,16 +891,6 @@
   },
   {
     "nama_toko": "Toko Contoh",
-    "nama_produk": "[PLASTIK TERMURAH] Kantong Plastik Bawang / Kresek Bening Premium PE PEX Ukuran 10 15 20 25 30 35",
-    "link_produk": "https://shopee.co.id/product/383541227/23952559284",
-    "terjual": 622,
-    "harga": 8594,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
     "nama_produk": "Wallpaper WALL BATTEN HMR DINDING Kayu Aesthetic Termurah",
     "link_produk": "https://shopee.co.id/product/296683203/21281754617",
     "terjual": 621,
@@ -1495,16 +915,6 @@
     "link_produk": "https://shopee.co.id/product/1034581022/22754394732",
     "terjual": 597,
     "harga": 9499,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Halu Tempat Tisu Kotak Tissue Kayu Transparan Minimalis Box Wadah Tisu Kotak Tisu Organiser HSB639",
-    "link_produk": "https://shopee.co.id/product/399312512/22709124846",
-    "terjual": 588,
-    "harga": 26900,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -1771,16 +1181,6 @@
   },
   {
     "nama_toko": "Toko Contoh",
-    "nama_produk": "Kain Peras Saringan Susu Kedelai Almond Kacang Greek Yogurt Santan Nylon 200 Mesh 100 Mesh",
-    "link_produk": "https://shopee.co.id/product/23962982/23019272306",
-    "terjual": 448,
-    "harga": 14900,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
     "nama_produk": "Konektor Selang Sambungan Kran Air Fleksibel",
     "link_produk": "https://shopee.co.id/product/1019496667/22880920562",
     "terjual": 445,
@@ -1815,16 +1215,6 @@
     "link_produk": "https://shopee.co.id/product/259831672/23372904376",
     "terjual": 437,
     "harga": 6000,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HC Sutil Silicon Gagang Kayu Peralatan Masak Murah Utensil Silikon Spatula Silicone Tahan Panas",
-    "link_produk": "https://shopee.co.id/product/26177891/23523003172",
-    "terjual": 430,
-    "harga": 10649,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -1901,16 +1291,6 @@
   },
   {
     "nama_toko": "Toko Contoh",
-    "nama_produk": "HC Toilet Seat Cover Alas Duduk Closet Disposable Plastik Tatakan Dudukan WC Kloset Praktis Untuk Travelling",
-    "link_produk": "https://shopee.co.id/product/26177891/22342773060",
-    "terjual": 369,
-    "harga": 3080,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
     "nama_produk": "Cetakan Puding 15cm / 600ml / Jamrud / Saphire / Onyx / Ruby",
     "link_produk": "https://shopee.co.id/product/174970774/22455433314",
     "terjual": 349,
@@ -1975,26 +1355,6 @@
     "link_produk": "https://shopee.co.id/product/42713734/22739854598",
     "terjual": 308,
     "harga": 9999,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Bunga Semanggi Sakura Tangkai Panjang 65cm Artificial Imitasi kain untuk Dekorasi Hiasan pelaminan atau dekorasi wedding  kamar  rumah  dan cafe premium palsu kain Import  termurah artificial",
-    "link_produk": "https://shopee.co.id/product/1022470550/21981593453",
-    "terjual": 304,
-    "harga": 4999,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "YHOME Filter Saringan Mesh Kain Nylon100/200/400 Mesh Kopi Susu Kacang Kedelai Pudding Teh Jus / Saringan Kopi Makanan Minuman Y252",
-    "link_produk": "https://shopee.co.id/product/520253947/23213921745",
-    "terjual": 302,
-    "harga": 14900,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -2235,16 +1595,6 @@
     "link_produk": "https://shopee.co.id/product/194981592/23680587394",
     "terjual": 193,
     "harga": 38999,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "Rose Bludru Panjang 50cm Bunga Mawar Artificial Dekorasi Kamar Cafe Rumah Wedding Premium Termurah",
-    "link_produk": "https://shopee.co.id/product/1022470550/23274473178",
-    "terjual": 190,
-    "harga": 4392,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -2501,16 +1851,6 @@
   },
   {
     "nama_toko": "Toko Contoh",
-    "nama_produk": "Bunga Lily Latex Cabang 2 Artificial Bunga Lili Palsu Tiger Lilies Bahan Lateks Real Touch Silk Flower Hiasan Bucket Rumah Cafe Hotel Dan Dekorasi Pelaminan Import Premium Berkualitas Murah",
-    "link_produk": "https://shopee.co.id/product/817939428/21292357114",
-    "terjual": 116,
-    "harga": 11170,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
     "nama_produk": "PUSAT17 KLIP PENJEPIT KEMASAN KANTONG PLASTIK SNACK JUMBO / ALAT PENJEPIT SEGEL PLASTIK MAKANAN SERBAGUNA / KLIP PENYEGEL / JEPITAN BUNGKUSAN PLASTIK",
     "link_produk": "https://shopee.co.id/product/289641033/23074526600",
     "terjual": 113,
@@ -2535,16 +1875,6 @@
     "link_produk": "https://shopee.co.id/product/1016129681/23249256508",
     "terjual": 104,
     "harga": 2742,
-    "komisi_rp": null,
-    "komisi_persen": null,
-    "keterangan": ""
-  },
-  {
-    "nama_toko": "Toko Contoh",
-    "nama_produk": "HALU Kotak Tempat Tisu Transparan Minimalis Wadah Tisu Kotak Penyimpanan Transparan Modern Tissue Box Kotak Tisu Organiser HSB712",
-    "link_produk": "https://shopee.co.id/product/399312512/22753762647",
-    "terjual": 99,
-    "harga": 23900,
     "komisi_rp": null,
     "komisi_persen": null,
     "keterangan": ""
@@ -3438,5 +2768,675 @@
     "komisi_rp": 53.99,
     "komisi_persen": 1,
     "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "Kaya Plastikindo",
+    "nama_produk": "Kantong Plastik Bubble Mailer Amplop Bubble - White Pearl 11cm x 19cm",
+    "link_produk": "https://shopee.co.id/product/1008542642/22275703057",
+    "terjual": 10854,
+    "harga": 540,
+    "komisi_rp": 54,
+    "komisi_persen": 10,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "DuniaTopper",
+    "nama_produk": "Toper Karakter Murah Hiasan Kue Ulang Tahun Tusukan",
+    "link_produk": "https://shopee.co.id/product/537924044/22374263451",
+    "terjual": 10367,
+    "harga": 3622,
+    "komisi_rp": 72.44,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "EazyShop BSD",
+    "nama_produk": "Aluminium Foil Cup 100 ml  (111/34) Makaroni Schotel",
+    "link_produk": "https://shopee.co.id/product/872582091/21750339535",
+    "terjual": 9969,
+    "harga": 709,
+    "komisi_rp": 3.54,
+    "komisi_persen": 0.5,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Hygiene Indonesia",
+    "nama_produk": "PAPER BOWL ALL SIZE + TUTUP / MANGKUK KERTAS / WADAH KERTAS TEBAL / CUP MANGKOK TAHAN PANAS",
+    "link_produk": "https://shopee.co.id/product/164751069/22207742466",
+    "terjual": 9447,
+    "harga": 20500,
+    "komisi_rp": 410,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "HTC MUSLIM Official",
+    "nama_produk": "Tissue Facial Yukinawa 200 Sheet Lembut Terasa Halus Di Wajah/Muka",
+    "link_produk": "https://shopee.co.id/product/7438346/23951300775",
+    "terjual": 9330,
+    "harga": 4930,
+    "komisi_rp": 49.3,
+    "komisi_persen": 1,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "Bestpolaroid01",
+    "nama_produk": "l polaroid 2R proses 1-2  hari bisa pisah",
+    "link_produk": "https://shopee.co.id/product/274765642/21504217410",
+    "terjual": 9092,
+    "harga": 150,
+    "komisi_rp": 6,
+    "komisi_persen": 4,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Dus Kemasan",
+    "nama_produk": "BOX POPCORN GARIS 8X8X13 CM",
+    "link_produk": "https://shopee.co.id/product/67109930/23973247431",
+    "terjual": 8900,
+    "harga": 653,
+    "komisi_rp": 19.59,
+    "komisi_persen": 3,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Plastik OPP Thomas Karya 66",
+    "nama_produk": "ECER Kantong Plastik Dove 33x30 muat Box Brownies 30x10x5 Mika Bronis L Transparan Buram Strudel",
+    "link_produk": "https://shopee.co.id/product/90169579/21360783894",
+    "terjual": 8371,
+    "harga": 917,
+    "komisi_rp": 55.02,
+    "komisi_persen": 6,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "JuraganSablonCup99",
+    "nama_produk": "SABLON GELAS CUP 22 OZ OVAL S & DATAR KUALITAS TEBAL TERMURAH SE INDONESIA",
+    "link_produk": "https://shopee.co.id/product/114190622/21973123430",
+    "terjual": 8000,
+    "harga": 427,
+    "komisi_rp": 8.54,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "One Net Store",
+    "nama_produk": "CLIP NET BULAT WARING / PENJEPIT PARANET / KLIP NET / JEPITAN JARING",
+    "link_produk": "https://shopee.co.id/product/1044337493/23075536646",
+    "terjual": 7500,
+    "harga": 550,
+    "komisi_rp": 22,
+    "komisi_persen": 4,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "waris elektronik",
+    "nama_produk": "Box Multi Plastik X1 X2 X3 X4 X5 X6 Kotak Tebal Keperluan Elektronik",
+    "link_produk": "https://shopee.co.id/product/99590416/23566334672",
+    "terjual": 7176,
+    "harga": 7600,
+    "komisi_rp": 76,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "KHanugrah_shop",
+    "nama_produk": "Siku Rak Verseng Plat Siku L Besi 2cm  3cm  4cm  5cm  6cm  7cm  8cm  9cm  10cm (Penyangga Kayu)",
+    "link_produk": "https://shopee.co.id/product/223691200/23215495008",
+    "terjual": 7127,
+    "harga": 767,
+    "komisi_rp": 15.34,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Prince Florist",
+    "nama_produk": "[1 Pcs] Kuntuman Rose Mawar SJ - Kelopak Bunga Mawar Artificial Satuan Pcs  Dekorasi/Grosir/Import/Bunga Kain Artificial Import Berkualitas",
+    "link_produk": "https://shopee.co.id/product/450777462/23533677983",
+    "terjual": 6946,
+    "harga": 899,
+    "komisi_rp": 8.99,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "DiamondOfficial899",
+    "nama_produk": "Kantong Tebal Plastik Tebal Kresek Tebal Hitam",
+    "link_produk": "https://shopee.co.id/product/433017642/21766634347",
+    "terjual": 6463,
+    "harga": 7728,
+    "komisi_rp": 77.28,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "IhsanPerabot",
+    "nama_produk": "1PCS Cetakan Puding Mini Bavaya / Twist / Bubble / Classic / Varda / Lextra",
+    "link_produk": "https://shopee.co.id/product/174970774/21970854200",
+    "terjual": 6374,
+    "harga": 1108,
+    "komisi_rp": 66.48,
+    "komisi_persen": 6,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "starindo.plast",
+    "nama_produk": "Plastik Ziplock Plastik Klip  30x38+7cm bening transparan untuk baju sepatu gamis",
+    "link_produk": "https://shopee.co.id/product/879121461/22543062121",
+    "terjual": 6352,
+    "harga": 988,
+    "komisi_rp": 19.76,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "HERMANCOLLECTION",
+    "nama_produk": "HC Kantong Kompres Air Panas Es Dingin Kantung Kompres Demam Dan Nyeri Motif Kartun Cold Compress Ice Bag Hot Pack Pereda PMS Haid Luka Memar Murah",
+    "link_produk": "https://shopee.co.id/product/26177891/22270746959",
+    "terjual": 6217,
+    "harga": 2605,
+    "komisi_rp": 26.05,
+    "komisi_persen": 1,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "SUHU Official",
+    "nama_produk": "Plastik Packing Baju Kantong Polymailer Olshop Isi 100 Lembar Semi Glossy Grade C Hitam Ukuran 10X20 17X30 20X30 20X40 25X35 25X35 25X40 30X40 30X50 35X50 40X50",
+    "link_produk": "https://shopee.co.id/product/53912665/22069451398",
+    "terjual": 2623,
+    "harga": 37599,
+    "komisi_rp": 1879.95,
+    "komisi_persen": 5,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Homkits",
+    "nama_produk": "HKS Sticky Roll Pembersih Bulu Debu Pakaian Bulu Hewan Kotoran Gomasta",
+    "link_produk": "https://shopee.co.id/product/766984346/21408345036",
+    "terjual": 6089,
+    "harga": 5995,
+    "komisi_rp": 599.5,
+    "komisi_persen": 10,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Homkits",
+    "nama_produk": "HKS-H030 Gelas ukur Takar Bening Cup 250ml 300ml 500ml 1000ml 1liter",
+    "link_produk": "https://shopee.co.id/product/766984346/20608439648",
+    "terjual": 1796,
+    "harga": 19685,
+    "komisi_rp": 1968.5,
+    "komisi_persen": 10,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "HERMANCOLLECTION",
+    "nama_produk": "HC Toilet Seat Cover Alas Duduk Closet Disposable Plastik Tatakan Dudukan WC Kloset Praktis Untuk Travelling",
+    "link_produk": "https://shopee.co.id/product/26177891/22342773060",
+    "terjual": 369,
+    "harga": 3080,
+    "komisi_rp": null,
+    "komisi_persen": null,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "HERMANCOLLECTION",
+    "nama_produk": "HC Meteran Mini Gulung 150Cm Pengukur Lingkar Perut Baju Jahit Measure Tapes High Quality 1.5M Warna Pastel Alat Ukur Kain Tukang Jahit 60 Inch",
+    "link_produk": "https://shopee.co.id/product/26177891/21940910651",
+    "terjual": 5771,
+    "harga": 2251,
+    "komisi_rp": null,
+    "komisi_persen": null,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "HERMANCOLLECTION",
+    "nama_produk": "HC Air Fryer Paper ±40-50 Pcs Anti Lengket 16cm Kertas Alas Airfryer ±40-50pcs Baking Paper Tahan Minyak Sekali Pakai Murah",
+    "link_produk": "https://shopee.co.id/product/26177891/23701196536",
+    "terjual": 4266,
+    "harga": 5738,
+    "komisi_rp": null,
+    "komisi_persen": null,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "HERMANCOLLECTION",
+    "nama_produk": "HC Silikon Partisi Bento Sekat Silikon Tebal Bekal Anak BPA Free Hiasan Makanan Bento Silicone Cup Bekal Anak Cetakan Cupcake Muffin Premium T",
+    "link_produk": "https://shopee.co.id/product/26177891/22166834540",
+    "terjual": 2870,
+    "harga": 613,
+    "komisi_rp": null,
+    "komisi_persen": null,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "HERMANCOLLECTION",
+    "nama_produk": "HC Sutil Silicon Gagang Kayu Peralatan Masak Murah Utensil Silikon Spatula Silicone Tahan Panas",
+    "link_produk": "https://shopee.co.id/product/26177891/23523003172",
+    "terjual": 430,
+    "harga": 10649,
+    "komisi_rp": null,
+    "komisi_persen": null,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "AGEN SEMUA OFFICIAL\t",
+    "nama_produk": "Tissue Tisu Gulung Jolly Bathroom isi 10 roll ( TENGAH ADA CORE )",
+    "link_produk": "https://shopee.co.id/product/256364012/23772503265",
+    "terjual": 2375,
+    "harga": 18999,
+    "komisi_rp": null,
+    "komisi_persen": null,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "HTC MUSLIM Official",
+    "nama_produk": "Tissue Jolly 250 Sheets 2Ply Facial Tisu Tissu Wajah",
+    "link_produk": "https://shopee.co.id/product/7438346/23555657793",
+    "terjual": 4344,
+    "harga": 7445,
+    "komisi_rp": null,
+    "komisi_persen": null,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "supermarketsby",
+    "nama_produk": "[PLASTIK TERMURAH] Kantong Plastik Bawang / Kresek Bening Premium PE PEX Ukuran 10 15 20 25 30 35",
+    "link_produk": "https://shopee.co.id/product/383541227/23952559284",
+    "terjual": 622,
+    "harga": 8594,
+    "komisi_rp": null,
+    "komisi_persen": null,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "supermarketsby",
+    "nama_produk": "[FOBO] Lunch Box Coklat Paper Kraft Full Laminasi / Kotak Makan Coklat Kraft 230 GSM",
+    "link_produk": "https://shopee.co.id/product/383541227/21779997262",
+    "terjual": 3751,
+    "harga": 552,
+    "komisi_rp": null,
+    "komisi_persen": null,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "Queenflorist01",
+    "nama_produk": "1 Pcs Tangkai Rose Dandelion Single - Panjang 39Cm Tangkai Kelopak Bunga Mawar Pom2 Anyelir Dandelion Artificial Satuan Pcs untuk Buket Hiasan Ruang Tamu Rumah Hotel Cafe dan Dekorasi Papan Pelaminan Pernikahan Artifisial Premium Import Murah",
+    "link_produk": "https://shopee.co.id/product/817939428/22676367324",
+    "terjual": 5624,
+    "harga": 1450,
+    "komisi_rp": 14.5,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Queenflorist01",
+    "nama_produk": "Bunga Lily Latex Cabang 2 Artificial Bunga Lili Palsu Tiger Lilies Bahan Lateks Real Touch Silk Flower Hiasan Bucket Rumah Cafe Hotel Dan Dekorasi Pelaminan Import Premium Berkualitas Murah",
+    "link_produk": "https://shopee.co.id/product/817939428/21292357114",
+    "terjual": 116,
+    "harga": 11170,
+    "komisi_rp": 111.7,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Queenflorist01",
+    "nama_produk": "Bunga Semanggi Sakura Tangkai Panjang 65cm Artificial Imitasi Kain untuk Dekorasi Hiasan Pelaminan atau Dekorasi Wedding  Kamar  Rumah  dan Cafe Premium Termurah Artificial Palsu Kain Import",
+    "link_produk": "https://shopee.co.id/product/817939428/22466346243",
+    "terjual": 1905,
+    "harga": 4999,
+    "komisi_rp": 49.99,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Dekor Pelaminan",
+    "nama_produk": "COD 1PCS KUNTUM KEPALA BUNGA KRISAN JUMBO DIAMETER 14CM ARTIFICIAL - BUNGA SESERAHAN & BUCKET BUNGA - HIASAN DEKORASI - IMPORT",
+    "link_produk": "https://shopee.co.id/product/328818897/22720209764",
+    "terjual": 5536,
+    "harga": 1900,
+    "komisi_rp": 57,
+    "komisi_persen": 3,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "SUPER MALL SHOPPING",
+    "nama_produk": "SMS Plastik Wrap Pembungkus Makanan 30cm x 10mtr Food Wrapping Roll Food Grade Plastik Buah Sayur Makanan Food Wrap Clip Roll",
+    "link_produk": "https://shopee.co.id/product/453955220/22516510838",
+    "terjual": 5450,
+    "harga": 5878,
+    "komisi_rp": 58.78,
+    "komisi_persen": 1,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "SUPER MALL SHOPPING",
+    "nama_produk": "SMS Kantong Kompres Air Panas Es Dingin Kantung Kompres Demam Dan Nyeri Motif Kartun Cold Compress Ice Bag Hot Pack Pereda PMS Haid Luka Memar Murah Import",
+    "link_produk": "https://shopee.co.id/product/453955220/23245209968",
+    "terjual": 1313,
+    "harga": 2603,
+    "komisi_rp": 26.03,
+    "komisi_persen": 1,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "SUPER MALL SHOPPING",
+    "nama_produk": "SMS Cetakan Nasi Sushi Cetakan Nasi Bento Sushi Onigiri Anti Lengket Desain Kartun",
+    "link_produk": "https://shopee.co.id/product/453955220/22307887164",
+    "terjual": 1481,
+    "harga": 2195,
+    "komisi_rp": 21.95,
+    "komisi_persen": 1,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "SUPER MALL SHOPPING",
+    "nama_produk": "SMS Silikon Partisi Bento Sekat Silikon Tebal Bekal Anak BPA Free Hiasan Makanan Bento Silicone Cup Bekal Anak Cetakan Cupcake Muffin Premium Import",
+    "link_produk": "https://shopee.co.id/product/453955220/23741343464",
+    "terjual": 1035,
+    "harga": 611,
+    "komisi_rp": 6.11,
+    "komisi_persen": 1,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "vina_haryanti1",
+    "nama_produk": "Lilin Aromaterapi  Scented Candle Hampers | Souvenir Wedding Gift Birthday  | Paket Usaha",
+    "link_produk": "https://shopee.co.id/product/205531487/23817916359",
+    "terjual": 5204,
+    "harga": 8831,
+    "komisi_rp": 176.62,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "vina_haryanti1\t",
+    "nama_produk": "Lilin Aromaterapi Scented Candle 45gr Box + Lilin | Souvenir Wedding Nikah | Gift Birthday Ultah",
+    "link_produk": "https://shopee.co.id/product/205531487/22774269764",
+    "terjual": 711,
+    "harga": 10053,
+    "komisi_rp": 201.06,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Jaya Indah Makmur",
+    "nama_produk": "Gelas Takar Ukur 100ML 150ml Plastik Bening Transparan Measuring Cup Plastic Jigger",
+    "link_produk": "https://shopee.co.id/product/23962982/23443778362",
+    "terjual": 5127,
+    "harga": 5900,
+    "komisi_rp": 118,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Jaya Indah Makmur",
+    "nama_produk": "Kain Peras Saringan Susu Kedelai Almond Kacang Greek Yogurt Santan Nylon 200 Mesh 100 Mesh",
+    "link_produk": "https://shopee.co.id/product/23962982/23019272306",
+    "terjual": 448,
+    "harga": 14900,
+    "komisi_rp": 298,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "ROLIO GROSIR",
+    "nama_produk": "Botol Minuman Portable Cup 600 & 800 ML High Quality",
+    "link_produk": "https://shopee.co.id/product/986252850/23976674502",
+    "terjual": 5053,
+    "harga": 7999,
+    "komisi_rp": 399.95,
+    "komisi_persen": 5,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Banana Home Supplier",
+    "nama_produk": "Plastik Pelindung Makanan Isi 100 Pcs Plastik karet Plastik Penutup Makan Plastik Menjaga Makanan",
+    "link_produk": "https://shopee.co.id/product/186103782/23752029911",
+    "terjual": 5010,
+    "harga": 7500,
+    "komisi_rp": 150,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "kingdecoration96",
+    "nama_produk": "1PCS Tangkai Rose Dandelion Single Panjang 39CM Dekorasi Pernikahan Artifisial Murah Import Premium",
+    "link_produk": "https://shopee.co.id/product/1022470550/23550868756",
+    "terjual": 4957,
+    "harga": 1450,
+    "komisi_rp": 43.5,
+    "komisi_persen": 3,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "kingdecoration96",
+    "nama_produk": "Bunga Delphinium Spring - Bunga Plastik Artificial Imitasi Snapdragon Cherry Blossom / Oncidium / Sakura untuk Dekorasi Bunga Sedap Malam Rumah Dekorasi Kamar dan Dekorasi Pelaminan atau Dekorasi Wedding",
+    "link_produk": "https://shopee.co.id/product/1022470550/23846951741",
+    "terjual": 721,
+    "harga": 7358,
+    "komisi_rp": 220.74,
+    "komisi_persen": 3,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "kingdecoration96",
+    "nama_produk": "Bunga Semanggi Sakura Tangkai Panjang 65cm Artificial Imitasi kain untuk Dekorasi Hiasan pelaminan atau dekorasi wedding  kamar  rumah  dan cafe premium palsu kain Import  termurah artificial",
+    "link_produk": "https://shopee.co.id/product/1022470550/21981593453",
+    "terjual": 304,
+    "harga": 4999,
+    "komisi_rp": 149.97,
+    "komisi_persen": 3,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "kingdecoration96",
+    "nama_produk": "Rose Bludru Panjang 50cm Bunga Mawar Artificial Dekorasi Kamar Cafe Rumah Wedding Premium Termurah",
+    "link_produk": "https://shopee.co.id/product/1022470550/23274473178",
+    "terjual": 190,
+    "harga": 4392,
+    "komisi_rp": 131.76,
+    "komisi_persen": 3,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "TnT Beauty Shop",
+    "nama_produk": "Tissue Wajah SERIES - PASCOY - SEE-U - NICE - Soft Natural Facial - Tisu Series | Tnt Beauty Shop",
+    "link_produk": "https://shopee.co.id/product/744873/23481411740",
+    "terjual": 4954,
+    "harga": 10900,
+    "komisi_rp": 109,
+    "komisi_persen": 1,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "Hxrow_znb",
+    "nama_produk": "Lakban Anti Bocor 3M 5M  Lem Anti Air Alumunium Foil Butyl Super Waterproof Tape Tambal",
+    "link_produk": "https://shopee.co.id/product/997869119/21692468829",
+    "terjual": 4809,
+    "harga": 26800,
+    "komisi_rp": 2144,
+    "komisi_persen": 8,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "AIDO OFFICIAL",
+    "nama_produk": "Rak Kosmetik Aesthetic 2 Laci Multifungsi Tempat Penyimpanan Aksesoris Perhiasan Jumbo COD AIDO",
+    "link_produk": "https://shopee.co.id/product/680950364/22820716613",
+    "terjual": 4491,
+    "harga": 13500,
+    "komisi_rp": 270,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "HanyaBeli Store",
+    "nama_produk": "HBS Rak Sudut Kamar Mandi Tempel Dinding Keramik Rak Dapur Besi Serbaguna Tanpa Paku",
+    "link_produk": "https://shopee.co.id/product/991696713/23169099170",
+    "terjual": 4397,
+    "harga": 17300,
+    "komisi_rp": 1211,
+    "komisi_persen": 7,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Bowin Indonesia",
+    "nama_produk": "Bowin Reed Diffuser Crystal - Aromaterapi Pengharum Ruangan 100% Essential Oil",
+    "link_produk": "https://shopee.co.id/product/61414373/23934509534",
+    "terjual": 4227,
+    "harga": 39999,
+    "komisi_rp": 3999.9,
+    "komisi_persen": 10,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "BY mall",
+    "nama_produk": "Zipper Lock / Zipper Storage Bag / Organizer Bag",
+    "link_produk": "https://shopee.co.id/product/555831547/23318209176",
+    "terjual": 4219,
+    "harga": 1077,
+    "komisi_rp": 64.62,
+    "komisi_persen": 6,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "cr3online",
+    "nama_produk": "Gantungan Baju Plastik Dewasa Murah Isi 12Pcs",
+    "link_produk": "https://shopee.co.id/product/327565750/22012486528",
+    "terjual": 3918,
+    "harga": 10500,
+    "komisi_rp": 315,
+    "komisi_persen": 3,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Maxima Jaya Abadi",
+    "nama_produk": "100 Pcs Holy (3/4\") (1\") (1 1/4\") (1 1/2\") (2\") Inch Sekrup Skrup Gypsum Kayu Drywall",
+    "link_produk": "https://shopee.co.id/product/155318466/22772412472",
+    "terjual": 3779,
+    "harga": 11000,
+    "komisi_rp": 110,
+    "komisi_persen": 1,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "Tianzhy819apaajaada",
+    "nama_produk": "List Moulding Wainscoting /Bahan Pvc anti rayap ukuran 4cm 6cm/ List Moulding Pinggir dan Tengah Murah",
+    "link_produk": "https://shopee.co.id/product/789712409/23449150694",
+    "terjual": 3462,
+    "harga": 26250,
+    "komisi_rp": 3937.5,
+    "komisi_persen": 15,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Roster Bandung Official",
+    "nama_produk": "Roster Beton Minimalis  Loster Beton Minimalis  Roster Minimalis  Loster Minimalis  Lubang Angin Roster  Ventilasi Udara  Roster Putih  Loster Putih  Rooter Beton  Batu Roster  Luster Beton  Roster Tempel  Roster Dinding  Pagar Rumah  Roster Murah  Pagar",
+    "link_produk": "https://shopee.co.id/product/955993084/23925394289",
+    "terjual": 3439,
+    "harga": 10800,
+    "komisi_rp": 108,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "ZEITA INDONESIA",
+    "nama_produk": "Zeita - Bouquet bunga BKT 213 Artifisial Dekorasi",
+    "link_produk": "https://shopee.co.id/product/836740244/21934078638",
+    "terjual": 2872,
+    "harga": 10999,
+    "komisi_rp": 1099.9,
+    "komisi_persen": 10,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "YHOME LIVING",
+    "nama_produk": "YHOME Alas Tatakan Bentuk Anti slip Anti Kotor / Alas Lemari anti Lembab/Jamur bahan PVC / Waterproof Mat Alas Laci Transparan Kabinet Lemari Dapur Anti Slip / Alas Laci Lemari Transparan Y277",
+    "link_produk": "https://shopee.co.id/product/520253947/22943980159",
+    "terjual": 2784,
+    "harga": 23900,
+    "komisi_rp": 1195,
+    "komisi_persen": 5,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "YHOME LIVING",
+    "nama_produk": "YHOME Filter Saringan Mesh Kain Nylon100/200/400 Mesh Kopi Susu Kacang Kedelai Pudding Teh Jus / Saringan Kopi Makanan Minuman Y252",
+    "link_produk": "https://shopee.co.id/product/520253947/23213921745",
+    "terjual": 302,
+    "harga": 14900,
+    "komisi_rp": 745,
+    "komisi_persen": 5,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Beauty Corner",
+    "nama_produk": "Stella Air Freshener Refill Matic",
+    "link_produk": "https://shopee.co.id/product/8077122/23716055620",
+    "terjual": 2773,
+    "harga": 29000,
+    "komisi_rp": 290,
+    "komisi_persen": 1,
+    "keterangan": "livesendiri"
+  },
+  {
+    "nama_toko": "MME SHOP",
+    "nama_produk": "Mangkok Korea Stainless Steel Tebal / Mangkuk Dua Lapis Anti Panas Tanpa Tutup",
+    "link_produk": "https://shopee.co.id/product/580244323/23019217184",
+    "terjual": 2723,
+    "harga": 13650,
+    "komisi_rp": 136.5,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Septika",
+    "nama_produk": "Botol Minum Kaca Bening Aesthetic Bottle Tumbler 400 ml Gelas Coffee Cup Botol Anti Slip Tumpah",
+    "link_produk": "https://shopee.co.id/product/11592542/21293060408",
+    "terjual": 4127,
+    "harga": 5350,
+    "komisi_rp": 107,
+    "komisi_persen": 2,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Decor Art Official Store",
+    "nama_produk": "DecorArt 20 Cm - Papan Gantung Buka Tutup Open Close Bolak-Balik Tali Siap Pasang (Kd. BOLAT)",
+    "link_produk": "https://shopee.co.id/product/139409476/21869364558",
+    "terjual": 1397,
+    "harga": 18050,
+    "komisi_rp": 902.5,
+    "komisi_persen": 5,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Halu Official Shop",
+    "nama_produk": "HALU Organizer Laci Bening Acrylic Kotak Penyimpanan Serbaguna Rak Makeup Aksesoris Alat HSB710",
+    "link_produk": "https://shopee.co.id/product/399312512/22373719436",
+    "terjual": 1369,
+    "harga": 22200,
+    "komisi_rp": 222,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Halu Official Shop",
+    "nama_produk": "Halu Tempat Tisu Kotak Tissue Kayu Transparan Minimalis Box Wadah Tisu Kotak Tisu Organiser HSB639",
+    "link_produk": "https://shopee.co.id/product/399312512/22709124846",
+    "terjual": 588,
+    "harga": 26900,
+    "komisi_rp": 269,
+    "komisi_persen": 1,
+    "keterangan": ""
+  },
+  {
+    "nama_toko": "Halu Official Shop",
+    "nama_produk": "HALU Kotak Tempat Tisu Transparan Minimalis Wadah Tisu Kotak Penyimpanan Transparan Modern Tissue Box Kotak Tisu Organiser HSB712",
+    "link_produk": "https://shopee.co.id/product/399312512/22753762647",
+    "terjual": 99,
+    "harga": 23900,
+    "komisi_rp": 239,
+    "komisi_persen": 1,
+    "keterangan": ""
   }
 ]
