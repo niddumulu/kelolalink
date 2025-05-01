@@ -36,7 +36,7 @@
 
   <div class="instructions">
     <ol>
-      <li>Pilih file dari hasil <strong>Shoptik</strong> Choose File</li>
+      <li>Pilih file dari hasil <strong>Shoptik</strong></li>
       <li>Tekan tombol <strong>Download JSON</strong></li>
       <li>Beralih ke laman <a href="https://niddumulu.github.io/kelolalink/detailproduk.html" target="_blank">https://niddumulu.github.io/kelolalink/detailproduk.html</a></li>
       <li>Import file JSON yang tadi diunduh</li>
@@ -44,7 +44,7 @@
     </ol>
   </div>
 
-  <input type="file" id="csvFile" accept=".csv" />
+  <input type="file" id="csvFile" accept=".csv" multiple />
   <button id="downloadBtn" disabled>Download JSON</button>
   <div id="output"></div>
 
@@ -83,58 +83,70 @@
     }
 
     document.getElementById('csvFile').addEventListener('change', function(event) {
-      const file = event.target.files[0];
-      if (!file) return;
+      const files = event.target.files;
+      if (!files.length) return;
 
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        const text = e.target.result;
-        const rows = parseCSV(text);
-        const headers = rows[0].map(h => h.trim());
+      jsonData = [];
+      let linkSet = new Set();
+      let filesProcessed = 0;
 
-        const wantedCols = ['Nama Produk', 'Harga', 'Penjualan (30 Hari)', 'productLink'];
-        const indexes = wantedCols.map(col => headers.indexOf(col));
+      Array.from(files).forEach(file => {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const text = e.target.result;
+          const rows = parseCSV(text);
+          const headers = rows[0].map(h => h.trim());
 
-        jsonData = [];
+          const wantedCols = ['Nama Produk', 'Harga', 'Penjualan (30 Hari)', 'productLink'];
+          const indexes = wantedCols.map(col => headers.indexOf(col));
 
-        let html = '<table><thead><tr>';
-        wantedCols.forEach(col => html += `<th>${col}</th>`);
-        html += '</tr></thead><tbody>';
+          for (let i = 1; i < rows.length; i++) {
+            const row = rows[i];
+            if (row.length < Math.max(...indexes)) continue;
 
-        for (let i = 1; i < rows.length; i++) {
-          const row = rows[i];
-          if (row.length < Math.max(...indexes)) continue;
+            const nama_produk = row[indexes[0]]?.trim() || '';
+            const harga = parseFloat(row[indexes[1]]) || 0;
+            const terjual = parseInt(row[indexes[2]]) || 0;
+            const link_produk = row[indexes[3]]?.trim() || '';
 
-          const nama_produk = row[indexes[0]]?.trim() || '';
-          const harga = parseFloat(row[indexes[1]]) || 0;
-          const terjual = parseInt(row[indexes[2]]) || 0;
-          const link_produk = row[indexes[3]]?.trim() || '';
+            if (linkSet.has(link_produk)) continue; // Skip jika duplikat
+            linkSet.add(link_produk);
 
-          jsonData.push({
-            nama_toko: "Toko Contoh",
-            nama_produk,
-            link_produk,
-            terjual,
-            harga,
-            komisi_rp: "",
-            komisi_persen: "",
-            keterangan: ""
-          });
+            jsonData.push({
+              nama_toko: "Toko Contoh",
+              nama_produk,
+              link_produk,
+              terjual,
+              harga,
+              komisi_rp: "",
+              komisi_persen: "",
+              keterangan: ""
+            });
+          }
 
-          html += '<tr>';
-          html += `<td>${nama_produk}</td>`;
-          html += `<td>${harga}</td>`;
-          html += `<td>${terjual}</td>`;
-          html += `<td><a href="${link_produk}" target="_blank">${link_produk}</a></td>`;
-          html += '</tr>';
-        }
+          filesProcessed++;
+          if (filesProcessed === files.length) {
+            // Semua file sudah diproses, tampilkan tabel
+            let html = '<table><thead><tr>';
+            wantedCols.forEach(col => html += `<th>${col}</th>`);
+            html += '</tr></thead><tbody>';
 
-        html += '</tbody></table>';
-        document.getElementById('output').innerHTML = html;
-        document.getElementById('downloadBtn').disabled = false;
-      };
+            jsonData.forEach(item => {
+              html += '<tr>';
+              html += `<td>${item.nama_produk}</td>`;
+              html += `<td>${item.harga}</td>`;
+              html += `<td>${item.terjual}</td>`;
+              html += `<td><a href="${item.link_produk}" target="_blank">${item.link_produk}</a></td>`;
+              html += '</tr>';
+            });
 
-      reader.readAsText(file);
+            html += '</tbody></table>';
+            document.getElementById('output').innerHTML = html;
+            document.getElementById('downloadBtn').disabled = false;
+          }
+        };
+        reader.readAsText(file);
+      });
     });
 
     document.getElementById('downloadBtn').addEventListener('click', function () {
