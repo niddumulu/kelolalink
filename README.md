@@ -1,3 +1,3 @@
 # editlinkshopee
 edit
-https://niddumulu.github.io/editlinkshopee/detailproduk.html
+https://niddumulu.github.io/kelolalink/detailproduk.html
