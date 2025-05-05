@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON ke CSV</title>
+</head>
+<body>
+  <h2>Convert JSON ke CSV</h2>
+
+  <textarea id="jsonInput" rows="15" cols="80">
+{
+  "nama_toko": "Toko Contoh",
+  "nama_produk": "HSD Black Garlic Solo ( Bawang Hitam Tunggal)",
+  "link_produk": "https://shopee.co.id/product/738529143/16351005523",
+  "terjual": 7997,
+  "harga": 82500,
+  "komisi_rp": null,
+  "komisi_persen": null,
+  "keterangan": ""
+}
+  </textarea>
+  <br><br>
+  <button onclick="convertJSONtoCSV()">Download CSV</button>
+
+  <script>
+    function convertJSONtoCSV() {
+      try {
+        const jsonStr = document.getElementById('jsonInput').value;
+        const jsonObj = JSON.parse(jsonStr);
+
+        // Ambil header (keys) dan nilai (values)
+        const headers = Object.keys(jsonObj);
+        const values = Object.values(jsonObj).map(v => v === null ? '' : `"${v}"`);
+
+        // Gabungkan ke CSV
+        const csv = headers.join(",") + "\n" + values.join(",");
+
+        // Buat blob dan download
+        const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = "data.csv";
+        link.click();
+      } catch (e) {
+        alert("Format JSON tidak valid!");
+      }
+    }
+  </script>
+</body>
+</html>
