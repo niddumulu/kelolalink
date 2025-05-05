@@ -2,47 +2,51 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>JSON ke CSV</title>
+  <title>Extract Link Produk dari JSON</title>
+  <style>
+    textarea {
+      width: 100%;
+      font-family: monospace;
+    }
+  </style>
 </head>
 <body>
-  <h2>Convert JSON ke CSV</h2>
+  <h2>Extract Link Produk dari JSON</h2>
 
-  <textarea id="jsonInput" rows="15" cols="80">
-{
-  "nama_toko": "Toko Contoh",
-  "nama_produk": "HSD Black Garlic Solo ( Bawang Hitam Tunggal)",
-  "link_produk": "https://shopee.co.id/product/738529143/16351005523",
-  "terjual": 7997,
-  "harga": 82500,
-  "komisi_rp": null,
-  "komisi_persen": null,
-  "keterangan": ""
-}
-  </textarea>
+  <p>Tempel JSON di bawah ini (boleh satu atau banyak data dipisahkan koma dalam array):</p>
+  <textarea id="jsonInput" rows="15" placeholder="Paste JSON di sini"></textarea>
   <br><br>
-  <button onclick="convertJSONtoCSV()">Download CSV</button>
+  <button onclick="extractLinks()">Ambil Link</button>
+  <br><br>
+
+  <p>Hasil (link bisa dicopy):</p>
+  <textarea id="outputLinks" rows="10" readonly></textarea>
 
   <script>
-    function convertJSONtoCSV() {
+    function extractLinks() {
+      const input = document.getElementById("jsonInput").value.trim();
+      let links = [];
+
       try {
-        const jsonStr = document.getElementById('jsonInput').value;
-        const jsonObj = JSON.parse(jsonStr);
+        // Coba parse apakah array atau objek tunggal
+        let json = JSON.parse(input);
 
-        // Ambil header (keys) dan nilai (values)
-        const headers = Object.keys(jsonObj);
-        const values = Object.values(jsonObj).map(v => v === null ? '' : `"${v}"`);
+        // Jika objek tunggal, bungkus jadi array
+        if (!Array.isArray(json)) {
+          json = [json];
+        }
 
-        // Gabungkan ke CSV
-        const csv = headers.join(",") + "\n" + values.join(",");
+        // Loop dan ambil link_produk
+        json.forEach(item => {
+          if (item.link_produk) {
+            links.push(item.link_produk);
+          }
+        });
 
-        // Buat blob dan download
-        const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
-        link.download = "data.csv";
-        link.click();
+        document.getElementById("outputLinks").value = links.join("\n");
       } catch (e) {
-        alert("Format JSON tidak valid!");
+        alert("Format JSON tidak valid.");
+        console.error(e);
       }
     }
   </script>
